@@ -1,3 +1,6 @@
 function regCheck(regNumber, regCode){
-    return regNumber.endsWith(regCode)
+   if(regNumber.endsWith(regCode)){
+    return true
+   }
+    return false
   }

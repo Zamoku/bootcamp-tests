@@ -1,4 +1,5 @@
 function yearsAgo(year){
     const date = new Date();
-    return date.getFullYear() - year;
+    return date.getFullYear() - year
+
   }

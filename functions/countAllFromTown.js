@@ -5,11 +5,12 @@ function countAllFromTown(regNumber,code){
     
     for(var i = 0;i < array.length;i++){
       var newArray = array[i].trim();
-      //console.log(newArray)
+      
       
       if(newArray.startsWith(code)){
       counter++;
       }
+      
     }
     return counter;
   }
